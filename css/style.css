@@ -1,0 +1,92 @@
+.hidden {
+  display: none;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bold;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 0.8;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#clock {
+  font-size: 120px;
+  margin-bottom: 0px;
+}
+#greeting {
+  font-size: 60px;
+  margin-top: 0px;
+}
+ul > li {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+ul {
+  height: 20%;
+  overflow-y: scroll;
+}
+.cssbox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.ang {
+  text-align: center;
+  padding-top: 50px;
+  height: 90%;
+}
+input[type="text"] {
+  width: 200px;
+  height: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: transparent;
+  font-weight: bold;
+}
+button {
+  background-color: #9abf7f;
+  color: white;
+  border-color: #9abf7f;
+}
+li > button {
+  position: relative;
+  left: 5px;
+  bottom: 2px;
+}
+#logout-form {
+  position: absolute;
+  left: 95%;
+}
+#weather {
+  position: absolute;
+  top: 10px;
+  left: 90%;
+}
+#quote {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
